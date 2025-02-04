@@ -3,8 +3,8 @@
 
 
 export default async function ProDetail(props: { params: { productDetail: string } }) {
-  let res = await fetch(`https://jsonplaceholder.typicode.com/posts/${props.params.productDetail}`);
-  let post = await res.json();
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${props.params.productDetail}`);
+  const post = await res.json();
   console.log(post);
 
   return (
