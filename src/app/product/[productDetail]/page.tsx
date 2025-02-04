@@ -1,8 +1,4 @@
 
-  
-
-
-import { GetServerSideProps } from "next";
 
 interface ProductPageProps {
   params: {
